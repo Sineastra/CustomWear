@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "alwaysStrict": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
+    "strictNullChecks": true,
     "skipLibCheck": true,
     "strict": true,
+    "noImplicitAny": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
